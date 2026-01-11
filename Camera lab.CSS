@@ -1,0 +1,595 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+.header{
+    
+    position: sticky;
+    top: 0;
+    background: linear-gradient(rgba(131, 92, 59, 1), rgba(59, 47, 47, 1));
+    color: white;
+    /* padding: 1.5rem 2rem; */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+
+}
+
+.text1{
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.nav ul{
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    margin-top: 0;
+
+
+   
+    
+
+}
+.nav li{
+    float: left;
+}
+.nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding:16px;
+    text-decoration: none;
+    position: sticky;
+top: 0;
+}
+.nav li a:hover{
+    background-color: #111;
+}
+/* main */
+.welcome{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../ASSET/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-attachment: fixed;
+}
+.text2{
+    text-align: center;
+    color: #ffffff;
+    line-height: 2;
+    padding: 3rem 5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title{
+    font-size: 3rem;
+    margin-top: 0;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+.text2 p{
+    font-size: 1.2rem;
+    margin-top: -20px;
+}
+/* About */
+.about-section{
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 3rem 4rem;
+}
+
+.text3{
+    text-align: center;
+    color: #000000;
+    line-height: 2;
+    padding: 3rem 5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.text3 h2{
+    font-size: 3rem;
+    margin-top: -50px;
+}
+.text3 p{
+    font-size: 1.5rem;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+/* Brand */
+.brand-section{
+    
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 3rem 4rem;
+}
+.brand-section h1{
+    text-align: center;
+    color: #ffffff;
+    margin-top: -30px;
+    font-size: 30px;
+}
+.brand-section:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s linear;
+    
+}
+.new-series{
+    background-color: #ffffff;
+
+    border-radius: 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin-bottom: 3rem;
+    display: flex;
+}
+.new-series img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    float: left;
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.5) ;
+}
+.text4 h2{
+    padding: 0rem 0rem 0rem 20rem;  
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.text4 ul{
+    list-style: none;
+    font-size: 1rem;
+    padding: 0rem 0rem 0rem 5rem;
+    line-height: 2;
+}
+    
+.text5 ::before{
+    content: "📷  ";
+}
+/* Quality */
+.photo-section h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -70px;
+    margin-bottom: 40px;
+
+}
+/* Box1 2 3 */
+.box1 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.5) ;
+    overflow: hidden;
+    float: left;
+    border-radius: 20px;
+}
+.photo .box1{
+    padding: 0.5rem;
+    width: 400px;
+    background-color: #ffffff;
+    display: inline-block;
+    /* border: 5px solid #ffffff; */
+    border-radius: 30px;
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.5) ;
+    overflow: hidden;
+    margin-top: -50px;
+    
+}
+.photo{
+    padding: 2rem ;
+    justify-content: space-evenly;
+    display: flex;
+}
+.photo .box1:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s linear;
+}
+.box1 h2{
+    
+    margin-top: 40px;
+
+    text-align:center;
+  
+}
+.box1 p{
+    padding: 2rem;
+    margin-top: -40px;
+    margin-bottom: -20px;
+    text-align: center;
+    color: #000000;
+}
+.line{
+    background-color: #ffffff;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.line1{
+    background-color: #ffffff;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.line4{
+    background-color: #ffffff;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.line3{
+    background-color: #ffffff;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.line5{
+    background-color: #ffffff;
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+/* Sony */
+.brand-section{
+    
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 3rem 4rem;
+}
+
+.Sony-series{
+    background-color: #ffffff;
+
+    border-radius: 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin-bottom: 3rem;
+    display: flex;
+}
+.Sony-series img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    float: left;
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.5) ;
+}
+.text6 h2{
+    padding: 0rem 0rem 0rem 20rem;  
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.text6 ul{
+    list-style: none;
+    font-size: 1rem;
+    padding: 0rem 0rem 0rem 5rem;
+    line-height: 2;
+}
+    
+.text7 ::before{
+    content: "📷  ";
+}
+
+/* footer */
+.main-footer{
+    background-color: #333;
+    padding: 2rem;
+    /* text-align: center; */
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.footer1{
+/* background-color: aqua; */
+    width: 30%;
+    /* padding: 0rem 8rem; */
+
+}
+.footer1 h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.footer1 p{
+    line-height: 2;
+    font-size: 1rem;
+    
+}
+.footer2{
+    /* background-color: rgb(229, 196, 31); */
+    padding: 0rem 9rem;
+    
+    
+    
+    
+}
+
+.footer2 h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.footer2 ul{
+    list-style: none;
+    line-height: 2;
+    font-size: 1rem;
+    /* margin-left: 150px; */
+
+
+    
+   
+}
+.footer2 ul li a{
+    color: white;
+    text-decoration: none;
+    
+    
+}
+.footer3{
+    /* background-color: aqua; */
+    width: 30%;
+    
+}
+.footer3 h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.footer3 p{
+    line-height: 1;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+/* facebook */
+
+.social-media .facebook{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out
+   
+}
+.social-media .facebook a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out
+   
+}
+.social-media .facebook:hover{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+/* instagram */
+.social-media .instagra{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out
+}
+.social-media .instagra a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out
+}
+.social-media .instagra:hover{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+/* github */
+.social-media .github{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out
+}
+.social-media .github a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out
+}
+.social-media .github:hover{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.last{
+    background-color: #ffffff;
+   
+    text-align: center;
+    color: #000000;
+    padding: 1rem 3rem;
+
+    margin-top: 20px;
+    margin-bottom: 0
+}
+.last p{
+    margin-top: 20px;
+}
+/* responsive */
+@media (max-width: 900px){
+    /* header */
+    .header h1{
+        font-size: 1.5rem;
+    }
+    .nav ul{
+        padding: 0.2rem;
+    }
+    .nav li a{
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    .welcome{
+        padding: 0.5rem;
+    }
+    .text2{
+        padding: 2rem 2rem;
+        font-size: 1rem;
+    }
+    .text2 p{
+        font-size: 0.8rem;
+    }
+
+
+    /* about */
+
+    .about-section{
+        padding: 0.5rem 2rem;
+    }
+    .text3{
+        padding: 2rem 1rem;
+        font-size: 1rem;
+    }
+    .text3 p{
+        font-size: 0.8rem;
+    }
+    .text3 h2{
+        font-size: 1.2rem;
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    /* brand */
+    .title{
+        font-size: 1.6rem;
+    }
+    .line {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+     .line1{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        margin-top: -90px;
+    }
+    .line3{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        margin-top: -90px;
+
+    }
+    .line4{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        margin-top: -90px;
+    }
+    .line5{
+        font-size: 1.5rem;
+        padding: 1.5rem;
+        margin-top: -90px;
+    }
+    .brand-section{
+        /* background-color: #000000; */
+        padding: 0 1rem ;
+        margin-top: 40px;
+    }
+
+    .new-series, .Sony-series{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .new-series img, .Sony-series img{
+        width: 100%;
+        height: auto;
+    }
+    .photo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo .box1{
+        margin-bottom: 20px;
+    }
+    .text5 ul, .text4 ul, .text6 ul{
+        padding: 0rem 5rem;
+        margin-top: -10px;
+        
+    }
+    .text4 h2, .text6 h2{
+        padding: 0.5rem 10rem;
+        /* text-align: center; */
+        
+       
+        
+    }
+
+    /* quality */
+    .photo-section{
+        
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    .photo-section h1{
+       padding: 3rem 4rem;
+       margin-bottom: 20px;
+    }
+    .photo .box1{
+        width: 100%;
+      margin-top: -70px;
+        margin-bottom: 100px;
+    }
+    .photo h2{
+        font-size: 1.3rem;
+        margin-top: 370px;
+    }
+
+   
+    /* footer */
+    .main-footer{
+        padding: 1rem 2rem;
+        margin-bottom: -60px;
+        margin-top: -70px;
+        /* background-color: aqua; */
+        
+    }
+    .footer1, .footer2, .footer3{
+        /* width: 100%; */
+        margin-bottom: 20px;
+        padding: 0.5rem;
+        
+    }
+    .footer1 h3, .footer2 h3, .footer3 h3{
+        font-size: 0.8rem;
+        margin-top: -5px;
+    }
+    .footer1 p, .footer2 ul, .footer3 p{
+        font-size: 0.5rem;
+        /* margin-bottom: -20px; */
+    }
+    .last p{
+        font-size: 0.8rem;
+        margin-top: -5px;
+    }
+    .social-media .facebook, .social-media .instagra, .social-media .github{
+        padding: 0.2rem 0.5rem;
+        font-size: 0.8rem;
+    }
+    
+}
